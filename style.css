@@ -67,14 +67,14 @@ button.click-btn {
   width: 33px;
   height: 22.7px;
   align-self: flex-end;
-  background-image: url(/assets/Vector.svg);
+  background-image: url(/product-card/assets/Vector.svg);
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: center;
 }
 
 button.click-btn.clicked {
-  background-image: url(/assets/x.svg);
+  background-image: url(/product-card/assets/x.svg);
   background-size: 16px;
 }
 

@@ -9,6 +9,6 @@ showProductDetailsBtn.addEventListener("click", () => {
   productImageContainer.setAttribute("type", type);
 
   type === "gif"
-    ? (productImageContainer.src = "/assets/sofa-gif.gif")
-    : (productImageContainer.src = "/assets/sofa.png");
+    ? (productImageContainer.src = "/product-card/assets/sofa-gif.gif")
+    : (productImageContainer.src = "/product-card/assets/sofa.png");
 });
