@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+:root {
+  --light-violet: #d9cdf7;
+  --text-color: #271a45;
+}
+
+body {
+  background-color: var(--light-violet);
+  width: 100%;
+  height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  gap: 13px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+}
+
+img#product-img {
+  max-width: 449px;
+}
+
+h1 {
+  font-family: "Crimson Pro", sans-serif;
+  font-size: 32px;
+  margin: 12px 0;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.click-btn {
+  width: 33px;
+  height: 22.7px;
+  align-self: flex-end;
+  background-image: url(/assets/Vector.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+button.click-btn.clicked {
+  background-image: url(/assets/x.svg);
+  background-size: 16px;
+}
+
+button.submit-btn {
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid var(--text-color);
+  border-radius: 1rem;
+  padding: 8px 16px;
+  margin-top: 20px;
+  transition: all 0.5s;
+}
+
+button.submit-btn:hover {
+  background: #271a453b;
+}
