@@ -17,6 +17,10 @@ Desenvolver um card de produto com um botão que ao clicar altera a imagem do pr
 - Javascript
   - Para a realização do desafio utilizei manipulação da DOM com javascript ao selecionar os componentes que teriam alteração em sua composição, como o botão em que foi alterado o background e a mudança de imagem para gif do produto.
 
+## Links
+
+- Live Site: [product-card](https://fascinating-toffee-b2ddf0.netlify.app/)
+
 ## Autor
 
 - Meu perfil na Rocketseat - [Yasmin Braga](https://app.rocketseat.com.br/me/yasmin-braga-1568974763)
