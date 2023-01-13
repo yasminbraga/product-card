@@ -75,7 +75,7 @@ button.click-btn {
 
 button.click-btn.clicked {
   background-image: url(/product-card/assets/x.svg);
-  background-size: 16px;
+  background-size: 17px;
 }
 
 button.submit-btn {
